@@ -29,6 +29,7 @@ locals {
     dra-driver-cpu                  = "group:k8s-infra-staging-dra-driver-cpu@kubernetes.io"
     dra-example-driver              = "group:k8s-infra-staging-dra-example-driver@kubernetes.io"
     dra-driver-nvidia               = "group:k8s-infra-staging-dra-driver-nvidia@kubernetes.io"
+    dra-driver-google               = "group:k8s-infra-staging-dra-driver-google@kubernetes.io"
     etcd                            = "group:k8s-infra-staging-etcd@kubernetes.io"
     etcd-manager                    = "group:k8s-infra-staging-etcd-manager@kubernetes.io"
     gateway-api                     = "group:k8s-infra-staging-gateway-api@kubernetes.io"
