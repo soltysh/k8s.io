@@ -1154,6 +1154,7 @@
     "sha256:d8fea5c2239ac3e5e1ff359bda59d709f539901d948196115e75bf015073847e": ["v2.4.0-go1.24rc2-bookworm.0"]
     "sha256:a6b80ac41f3b23b959820ccc122ce2c69e6ee60377985151703a853202a1fed3": ["v2.4.0-go1.24rc3-bookworm.0"]
     "sha256:a469f771fce3cc6ac3daadc469fe1c92b450f57e5db6d41fa262dff700d3ede6": ["v2.4.0-go1.25.1-bookworm.0"]
+    "sha256:30105a34db1195231be3097687f6f532901cee86a6bd6590196bf34d9b6495b7": ["v2.4.0-go1.25.10-bookworm.0"]
     "sha256:25138ec4e58455c71d8b6e673186d53e77c2e74f9576435de417849604fb44fc": ["v2.4.0-go1.25.2-bookworm.0"]
     "sha256:7942f553428ed1c901ebb346a3b87ac4484290a6d2bf5b7de2e16418ca1c8c25": ["v2.4.0-go1.25.3-bookworm.0"]
     "sha256:6a5f44612fd4bf0e93732b3f2725d92be00743f289906cb2582f9d1fec0281ae": ["v2.4.0-go1.25.4-bookworm.0"]
@@ -1167,6 +1168,7 @@
     "sha256:031b74926629468cce3a3a24ad861651e5c7dde61becbf9409d44801c441b902": ["v2.4.0-go1.26.0-bookworm.0"]
     "sha256:b4a30b5d1e7f2b968209881016e5ea441234c666513dbc005d9471cd2a83ec6c": ["v2.4.0-go1.26.1-bookworm.0"]
     "sha256:1cdba130a3ba5f33058d5e8312bdd5a222f63e7c36ce87773abd12d8c2def3c1": ["v2.4.0-go1.26.2-bookworm.0"]
+    "sha256:ff18605607309cb338cb9f334e19c6630f5790e1d0d0e357a24b35ebc4a31bb3": ["v2.4.0-go1.26.3-bookworm.0"]
 - name: go-runner-amd64
   dmap:
     "sha256:2fd65994929a83ece98cdfb3ff1ab56ba5b13ac8c25ed6028df98e0cb2137751": ["v2.3.1-go1.16.13-buster.0"]
@@ -1282,6 +1284,7 @@
     "sha256:47d86e47e4305cb356834ca4ae8d228e0885327362f5a4d0308ff3b78592d498": ["v2.4.0-go1.24rc2-bookworm.0"]
     "sha256:ec8ebd2197b75c239e3471d7cc07420609f2955de4a399d31be3c9ccae0ae7d8": ["v2.4.0-go1.24rc3-bookworm.0"]
     "sha256:e5f6abc29fe93b9c7bbb74ce64d0684272d06d378c1037c4da7b664ec52d3bb2": ["v2.4.0-go1.25.1-bookworm.0"]
+    "sha256:49fe99d029824ec9079fb7c96307d591c8def47d7b1a1377a7d9152baa20811e": ["v2.4.0-go1.25.10-bookworm.0"]
     "sha256:77ac969eb2dd4b67dcc0f9ff8d51cb51f1edf4b5b86a55beb2fc7e245bace255": ["v2.4.0-go1.25.2-bookworm.0"]
     "sha256:7fb7c31ae6aa940bc136223d50538cb53207fcd2f28de001a9c162a978323754": ["v2.4.0-go1.25.3-bookworm.0"]
     "sha256:a81829529cde906d187b4c7408c2c9e7d849a322ffd79d4a103f1e6d247112b1": ["v2.4.0-go1.25.4-bookworm.0"]
@@ -1295,6 +1298,7 @@
     "sha256:9bb175acdc6784cc1de9fbd94bd8decd713ce9beea3a8c6712d030f75018ae39": ["v2.4.0-go1.26.0-bookworm.0"]
     "sha256:bebd7f60edf12db6d24a1a16ed38929055b7cdfd5f0ec523fd8fabb14a8e04a6": ["v2.4.0-go1.26.1-bookworm.0"]
     "sha256:5f18b9056fab21044f8b57c63e285a92546b936fbd42f81a6c770391e2a35904": ["v2.4.0-go1.26.2-bookworm.0"]
+    "sha256:40e2db2f376de97b77ece4f95846ed73dfd4fa5960d0e727f9f505cd49129a38": ["v2.4.0-go1.26.3-bookworm.0"]
 - name: go-runner-arm
   dmap:
     "sha256:f5209b750a6d791af4d77050f7ba5b57c61711dc888d6a981300d231c492c72a": ["v2.3.1-go1.16.13-buster.0"]
@@ -1410,6 +1414,7 @@
     "sha256:9db6113e2e7594d662707017759f5b48bcedd2008b9a5d657e72b8cc80d8bd22": ["v2.4.0-go1.24rc2-bookworm.0"]
     "sha256:f3ea8cd0b7a48a9285ab42ad55d90329c29e420ca5164149cd1e1668a6bfa895": ["v2.4.0-go1.24rc3-bookworm.0"]
     "sha256:cc92e7a065d870de0046ddb3e72c412abe811663baa25d1759998e1222f2cfa5": ["v2.4.0-go1.25.1-bookworm.0"]
+    "sha256:b8c8e3883c300c3ba53e19baf524583d6d9cfa985292c32065066b6a9aa8074a": ["v2.4.0-go1.25.10-bookworm.0"]
     "sha256:7783e197696bb7fa3fb6af3559511e7952cad112f8671fbcf83173120246c680": ["v2.4.0-go1.25.2-bookworm.0"]
     "sha256:7dff9693d52984a3029a09c9fa5416d6df122bfcff1998b68e73df3d165d97fd": ["v2.4.0-go1.25.3-bookworm.0"]
     "sha256:7d7eeb785f227baf27e49c3f70b886996839c8ec6d066dac452b64a65dc2f19f": ["v2.4.0-go1.25.4-bookworm.0"]
@@ -1423,6 +1428,7 @@
     "sha256:b716fa2ac4c28d884fa49cff7ca98a9062b9acd2c2bdc3e130340347a5f039a1": ["v2.4.0-go1.26.0-bookworm.0"]
     "sha256:987bfef5b9fc39811c826e6b7d94125cfeaec2ccd00b6811b7c4f70a6428954e": ["v2.4.0-go1.26.1-bookworm.0"]
     "sha256:d16656d6a920a0d6cb04d458182b5acd64634162a25c4c1518c38d6158fbe9a2": ["v2.4.0-go1.26.2-bookworm.0"]
+    "sha256:d3b2c93439cc686474b621dfc467280a5a83bbcbee0ba47b840a6a7d0e59a7f4": ["v2.4.0-go1.26.3-bookworm.0"]
 - name: go-runner-arm64
   dmap:
     "sha256:40a2a2df2ac9cf6d8c8cc64aa80a3536fb62c5f783c61a184b279fa15ed01673": ["v2.3.1-go1.16.13-buster.0"]
@@ -1538,6 +1544,7 @@
     "sha256:585e97c99a5a0066e3a7f3ff65c3837c48805d2fd2852e9d9beed7fe07b5f377": ["v2.4.0-go1.24rc2-bookworm.0"]
     "sha256:f0f048c71458badd573abc936eb33f626764673578abaf5ecf0a3b2b291fa7e3": ["v2.4.0-go1.24rc3-bookworm.0"]
     "sha256:21ed733d44884a9ac70a61bd725e562a22b273f8cf93d98a0cbabdd9dacdc9a6": ["v2.4.0-go1.25.1-bookworm.0"]
+    "sha256:7cbe24d848b3e5f65b85634a41164da3162371213a075babf15e61c6cd68aa92": ["v2.4.0-go1.25.10-bookworm.0"]
     "sha256:da67aa10e5da4cb1f6769ae13d9075bf2a3231828808adea48d8cdb25978c639": ["v2.4.0-go1.25.2-bookworm.0"]
     "sha256:cbc1f676bed04fd44df5cce8ef35cd7cf70bb5f02667b5b31dae5730c3d8664a": ["v2.4.0-go1.25.3-bookworm.0"]
     "sha256:124880bfd8b5e157f59e079c614fd3b45340de725ab550ddc89012bde5673cc0": ["v2.4.0-go1.25.4-bookworm.0"]
@@ -1551,6 +1558,7 @@
     "sha256:891cea018c52451db8911cfe729af12a52961d9aed523e080b7fd7ba7ff22721": ["v2.4.0-go1.26.0-bookworm.0"]
     "sha256:71c633e8133b81756f071127cbbf3d41798f40866eda70a13e3c78150fe69f4c": ["v2.4.0-go1.26.1-bookworm.0"]
     "sha256:38cc0bc8e9b3af66942531c3640fafd7eada0ce1505567f23dd25c38e1b671da": ["v2.4.0-go1.26.2-bookworm.0"]
+    "sha256:80340a550e828046b6a39b76af8ba480f08779b63d8acd83cf7b810e14002b7f": ["v2.4.0-go1.26.3-bookworm.0"]
 - name: go-runner-ppc64le
   dmap:
     "sha256:e47951dca3685c567dfc7fcc49346a121d6d34b4673b5cd84f69d0aa09b95e8c": ["v2.3.1-go1.16.13-buster.0"]
@@ -1666,6 +1674,7 @@
     "sha256:56c06e50b03e815d15e7b8c0ddcccabf6768caedbbf7984548a2ebeef200fa7c": ["v2.4.0-go1.24rc2-bookworm.0"]
     "sha256:4682bd985b5b066d84b9e02f348f7a1b75ba5f4ee0e80d53c3d3df16952577d3": ["v2.4.0-go1.24rc3-bookworm.0"]
     "sha256:90101e93cc118f9a63424b9b8ae8605ab45cdce0f590f51008f823f524ee89ac": ["v2.4.0-go1.25.1-bookworm.0"]
+    "sha256:d8d87a1bb567938bd17eac29fe47e3bd20a103e2f5c3d3ce960db510c83faac5": ["v2.4.0-go1.25.10-bookworm.0"]
     "sha256:bc64d5aa117e6abd817db1adf10af90fcb2849ae9a6f285839f72253c2aae34a": ["v2.4.0-go1.25.2-bookworm.0"]
     "sha256:78c410c805bb9dc99657460256307e8be7223adbe1c3c7a4f00e94ccfbb7d6a4": ["v2.4.0-go1.25.3-bookworm.0"]
     "sha256:d61e140cb504430f96c33563754fe076ecbb68cdb6bc45a8d9490e2577329627": ["v2.4.0-go1.25.4-bookworm.0"]
@@ -1679,6 +1688,7 @@
     "sha256:c81537ee99b16ea5dcfc36be78820acf7e7857d714c7378545d615462fe0b13f": ["v2.4.0-go1.26.0-bookworm.0"]
     "sha256:01792c0d8caf8e0c10686412e76d3adf32ce57ed6617e9e61769ba18fcd99343": ["v2.4.0-go1.26.1-bookworm.0"]
     "sha256:f22fc4df845f24d80cbea615d4881ff898a80b4cfa81597c9a0c96a2dd0db14e": ["v2.4.0-go1.26.2-bookworm.0"]
+    "sha256:3b930cd0194e711ed179ab600a9d9dfc36fa54f26c3aaf7871f4ae3da6854dc9": ["v2.4.0-go1.26.3-bookworm.0"]
 - name: go-runner-s390x
   dmap:
     "sha256:d92d67b1be04237ccf2c59418b32137362064b7243dcb53e9537ac2ef149988c": ["v2.3.1-go1.16.13-buster.0"]
@@ -1794,6 +1804,7 @@
     "sha256:dd0cab6941b79b199a3ea7383aba6ee4c18e2a82482f2929ddfc85f66b023c22": ["v2.4.0-go1.24rc2-bookworm.0"]
     "sha256:b965c7250a876c7520eae9997380a9cbb0a341feffb195080f856cc660d9b76c": ["v2.4.0-go1.24rc3-bookworm.0"]
     "sha256:af6c4d0e9a033edba887f5bf5835cb8717d0128f12a3675ad3844ad359c7ee44": ["v2.4.0-go1.25.1-bookworm.0"]
+    "sha256:ffb8708a732ca64f34fbbcb6ddcd88d93157a4753e280c1a31eb53cf3083a744": ["v2.4.0-go1.25.10-bookworm.0"]
     "sha256:704408055ac2ed32880705cf67387461a4aa9cb37add4ba451bc261e153666d7": ["v2.4.0-go1.25.2-bookworm.0"]
     "sha256:47e16c62fa2c26bd41ce476f71aad90c623692ff8b7414d876be63a6ecacdb1b": ["v2.4.0-go1.25.3-bookworm.0"]
     "sha256:2f50b8982f7d8729084da2325f35cdc74313d4b85eac52ab1798ee94c33c0cf6": ["v2.4.0-go1.25.4-bookworm.0"]
@@ -1807,6 +1818,7 @@
     "sha256:588fd81523b842b89899a6b66a53e0c26debb11e967be5ad4d268bfbc7d317d8": ["v2.4.0-go1.26.0-bookworm.0"]
     "sha256:d896d6e5bdbfe82ef46493090e3c471944d5dceceb69bc111908ce18d90e6e60": ["v2.4.0-go1.26.1-bookworm.0"]
     "sha256:6a2cbade68544f28d188b851296c7b2a0c9383ccd5f0728f8da2b958eb05d6f1": ["v2.4.0-go1.26.2-bookworm.0"]
+    "sha256:57db28bba4f08b7a83d82e8b5573f13584296cc90d7782bbd29a899536c74b79": ["v2.4.0-go1.26.3-bookworm.0"]
 - name: kube-cross
   dmap:
     "sha256:97e77164ddc1f9ab56bcbab3e2895b882097b1eabd820497e894f41c0e4908fe": ["v1.12.12-1"]
