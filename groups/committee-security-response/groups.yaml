@@ -49,7 +49,6 @@ groups:
       - kubernetes-security@huawei.com
       - kubernetes-security@service.aliyun.com
       - kube-security@microsoft.com
-      - kubernetes-security@weave.works
       - mke-security@mesosphere.com
       - release-managers-private@kubernetes.io
       - secalert@redhat.com
