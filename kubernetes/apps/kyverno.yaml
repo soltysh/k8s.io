@@ -16,6 +16,10 @@ spec:
               operator: In
               values:
                 - aks-prow-build
+    - clusters:
+        selector:
+          matchLabels:
+            cloud: eks
   template:
     metadata:
       name: "kyverno-{{ .name }}"
