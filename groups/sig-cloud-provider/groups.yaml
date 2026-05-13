@@ -104,8 +104,8 @@ groups:
       ReconcileMembers: "true"
     members:
       - haka.jesse@gmail.com
-      - jichenjc@cn.ibm.com
-      - mdulko@redhat.com
+      - kay.diam@gmail.com
+      - stephenfin@redhat.com
 
   - email-id: k8s-infra-staging-provider-azure@kubernetes.io
     name: k8s-infra-staging-provider-azure
