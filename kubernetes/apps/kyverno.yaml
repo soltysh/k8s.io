@@ -23,6 +23,8 @@ spec:
   template:
     metadata:
       name: "kyverno-{{ .name }}"
+      annotations:
+        argocd.argoproj.io/compare-options: ServerSideDiff=true,IncludeMutationWebhook=true
     spec:
       destination:
         namespace: kyverno
@@ -36,6 +38,24 @@ spec:
             releaseName: kyverno
             valueFiles:
               - $values/kubernetes/{{ .name }}/helm/kyverno.yaml
+            valuesObject:
+              config:
+                resourceFiltersExclude:
+                  - "[Binding,*,*]"
+                  - "[Pod/binding,*,*]"
+              features:
+                logging:
+                  format: json
+              admissionController:
+                rbac:
+                  clusterRole:
+                    extraResources:
+                      - apiGroups:
+                          - ""
+                        resources:
+                          - nodes
+                        verbs:
+                          - get
         - repoURL: "https://github.com/kubernetes/k8s.io.git"
           targetRevision: main
           ref: values
@@ -45,4 +65,3 @@ spec:
           selfHeal: true
         syncOptions:
           - CreateNamespace=true
-          - Replace=true
