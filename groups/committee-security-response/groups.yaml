@@ -41,6 +41,7 @@ groups:
       - k8s-security@suse.de
       - k8s_security_grp@oracle.com
       - kops-security-response@googlegroups.com
+      - kubernetes-security@akamai.com
       - kubernetes-security-disclosure@google.com
       - kubernetes-security-team@ml.ovh.net
       - kubernetes-security@cisco.com
