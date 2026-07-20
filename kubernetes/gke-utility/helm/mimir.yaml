@@ -63,7 +63,6 @@ alertmanager:
   replicas: 2
   resources:
     limits:
-      cpu: 2
       memory: 1.4Gi
     requests:
       cpu: 1
@@ -77,7 +76,6 @@ compactor:
     storageClass: hyperdisk-balanced
   resources:
     limits:
-      cpu: 4
       memory: 2.1Gi
     requests:
       cpu: 1
@@ -87,11 +85,10 @@ distributor:
   replicas: 2
   resources:
     limits:
-      cpu: 4
       memory: 5.7Gi
     requests:
-      cpu: 2
-      memory: 4Gi
+      cpu: 1
+      memory: 2Gi
 
 ingester:
   persistentVolume:
@@ -100,27 +97,29 @@ ingester:
   replicas: 3
   resources:
     limits:
-      memory: 12Gi
-    requests:
-      cpu: 3.5
       memory: 8Gi
+    requests:
+      cpu: 1
+      memory: 4Gi
   topologySpreadConstraints: {}
 
 chunks-cache:
   enabled: true
-  replicas: 3
+  replicas: 2
+  allocatedMemory: 2048
 
 index-cache:
   enabled: true
-  replicas: 3
+  replicas: 1
+  allocatedMemory: 1024
 
 metadata-cache:
   enabled: true
-  replicas: 3
+  replicas: 1
 
 results-cache:
   enabled: true
-  replicas: 3
+  replicas: 1
 
 overrides_exporter:
   replicas: 1
@@ -137,7 +136,7 @@ querier:
     limits:
       memory: 5.6Gi
     requests:
-      cpu: 2
+      cpu: 1
       memory: 4Gi
 
 query_frontend:
@@ -146,7 +145,7 @@ query_frontend:
     limits:
       memory: 2.8Gi
     requests:
-      cpu: 2
+      cpu: 1
       memory: 2Gi
 
 ruler:
