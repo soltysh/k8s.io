@@ -212,6 +212,7 @@
 - name: charts/aws-ebs-csi-driver
   dmap:
     "sha256:1b6c5de27d465b6b5ca11b33585ae7b21af81e892651c94bf7345254a9b27a31": ["2.62.0"]
+    "sha256:76e8dd9ea5094612d5fc43fa8e29a17c25cbb52dd23eef8af9fc3cfda4ae21b0": ["2.63.0"]
 - name: cloud-controller-manager
   dmap:
     "sha256:f900d8b4a358847cd311950c7802f938dad083f645eee784cd52b7aec0de8dfb": ["v1.18.0-alpha.0"]
