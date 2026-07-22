@@ -67,7 +67,7 @@ spec:
               memory: 2000Mi
             limits:
               cpu: 2000m
-              memory: 5000Mi
+              memory: 10000Mi
           env:
             - name: GITHUB_APP_ID
               valueFrom:

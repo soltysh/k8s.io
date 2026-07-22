@@ -54,8 +54,8 @@ spec:
               cpu: 100m
               memory: 3000Mi
             limits:
-              cpu: 1000m
-              memory: 6000Mi
+              cpu: 500m
+              memory: 1000Mi
           env:
             - name: GITHUB_APP_ID
               valueFrom:

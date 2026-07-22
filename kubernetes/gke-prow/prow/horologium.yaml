@@ -51,11 +51,11 @@ spec:
           readOnly: true
         resources:
           requests:
-            cpu: 100m
+            cpu: 500m
             memory: 1500Mi
           limits:
-            cpu: 500m
-            memory: 3000Mi
+            cpu: 1000m
+            memory: 6000Mi
       volumes:
       - name: config
         configMap:
